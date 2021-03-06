@@ -1,4 +1,4 @@
 # Cards Gallery
 
 
-Check [here](https://github.com/tiagodavi70/cards_gallery/index.html)
+Check [here](https://tiagodavi70.github.io/cards_gallery/)
