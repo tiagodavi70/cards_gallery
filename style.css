@@ -1,0 +1,39 @@
+#cards-container {
+    width: 65%;
+    height: 78vh;
+    background-color: #ddf;
+    padding: 9vh 9vw 9vh 9vw;
+    margin-right: 20px;
+    float:left;
+}
+
+.item {
+    width: 11.2vw;
+    height: 16vw;
+    min-height: 6.5em;
+    box-sizing: border-box;
+    /* margin: 1rem 0 0 1rem; */
+    /* padding: 4%; */
+    background-color: #27e;
+    color: white;
+    border-radius: 0.2em;
+    touch-action: none;
+    user-select: none;
+    -webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+}
+
+#interaction-container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+img.cards-interaction {
+    width: 14vh;
+    height: 20vh;
+    margin: 2px;
+}
+
