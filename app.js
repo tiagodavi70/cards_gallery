@@ -1,6 +1,7 @@
 
 
-const card_names = ["clear", "configuration", "dataset", "filter", "load", "save", "visualization"]
+const card_names = ["clear", "configuration", "dataset", "filter", "load", "save", "visualization"];
+let cont = 0;
 main()
 
 function main() {
@@ -18,9 +19,11 @@ function setupInteractions() {
 }
 
 function addCard(e,d) {
+    let i = cont++;
 
     d3.select("#cards-container").append("img")
         .attr("src", "images/" + d + ".jpeg")
+        .attr("id", "card_"  + i)
         .classed("item", true)
         .on("dblclick", function(e,d) {
             d3.select(e.target).remove()
@@ -28,4 +31,5 @@ function addCard(e,d) {
         .on("contextmenu", function(e,d) {
             // console.log(e.target)
         })
+    setInteract("#card_" + i)
 }
