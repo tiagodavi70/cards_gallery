@@ -9,7 +9,6 @@ function setInteract(id) {
         listeners: {
             move (event) {
                 let target = event.target
-                console.log(event, target)
                 let x = (parseFloat(target.getAttribute('data-x')) || 0)
                 let y = (parseFloat(target.getAttribute('data-y')) || 0)
 
