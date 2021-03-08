@@ -8,8 +8,8 @@
 }
 
 .item {
-    width: 11.2vw;
-    height: 16vw;
+    width: 210px; /* 11.2vw; */
+    height: 300px;/* 16vw; */
     min-height: 6.5em;
     box-sizing: border-box;
     /* margin: 1rem 0 0 1rem; */
